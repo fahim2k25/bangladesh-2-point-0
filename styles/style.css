@@ -10,7 +10,7 @@ body {
     background-color: #F1F1F3;
 }
 
-/* Shared Styles */
+/* Shared FONT Styles */
 
 .font-bangladesh {
     font-family: "Fira Sans", serif;
@@ -34,6 +34,46 @@ body {
     font-weight: 700;
     line-height: 67px;
 
+}
+
+.sec-heading {
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.sec-body {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sec-subheading {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.font-news-cardTitle {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.font-donate-amount {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
 }
 
 /* header styles */
@@ -88,4 +128,9 @@ nav {
 
 #banner>div>h2 {
     margin-bottom: 24px;
+}
+
+/* Vision STyles */
+#vision-cards {
+    display: flex;
 }
