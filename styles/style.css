@@ -10,8 +10,20 @@ body {
     background-color: #F1F1F3;
 }
 
-/* Shared FONT Styles */
+.primary-btn {
+    border: 0px;
+    padding: 13px 26px 13px 26px;
+    margin: 15px 0px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
 
+/* Shared FONT Styles */
 .font-bangladesh {
     font-family: "Fira Sans", serif;
     font-weight: 700;
@@ -239,4 +251,34 @@ p {
 
 #vi-card3>p {
     margin-bottom: 18px;
+}
+
+/* NEWS related styles starts here */
+#recent-news>div {
+    background-color: white;
+}
+
+#recent-news>h2 {
+    margin-bottom: 24px;
+}
+
+.news-card {
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    padding: 48px;
+    margin: 24px 0px;
+    align-items: center;
+}
+
+.jazeera-div>img {
+    border-radius: 24px;
+}
+
+.font-news-cardTitle {
+    margin-bottom: 12px;
+}
+
+.news-card p {
+    margin-top: 18px;
 }
