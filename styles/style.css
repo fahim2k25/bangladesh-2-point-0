@@ -131,6 +131,112 @@ nav {
 }
 
 /* Vision STyles */
+#vision h2,
+p {
+    margin-bottom: 24px;
+}
+
 #vision-cards {
     display: flex;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+/* card1 */
+#vi-card1 {
+    width: 410px;
+    padding: 25px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+#vi-card1-btn {
+    padding: 11px 20px 11px 20px;
+    border: 0px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#vi-card1>div>img {
+    margin-bottom: 34px;
+}
+
+#vi-card1>h4 {
+    margin-bottom: 12px;
+}
+
+#vi-card1>p {
+    margin-bottom: 18px;
+}
+
+/* card2 */
+#vi-card2 {
+    width: 410px;
+    padding: 25px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+#vi-card2-btn {
+    padding: 11px 20px 11px 20px;
+    border: 0px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#vi-card2>div>img {
+    margin-bottom: 34px;
+}
+
+#vi-card2>h4 {
+    margin-bottom: 12px;
+}
+
+#vi-card2>p {
+    margin-bottom: 18px;
+}
+
+/* card3 */
+#vi-card3 {
+    width: 410px;
+    padding: 25px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+#vi-card3-btn {
+    padding: 11px 20px 11px 20px;
+    border: 0px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#vi-card3>div>img {
+    margin-bottom: 34px;
+}
+
+#vi-card3>h4 {
+    margin-bottom: 12px;
+}
+
+#vi-card3>p {
+    margin-bottom: 18px;
 }
