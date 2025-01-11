@@ -387,3 +387,17 @@ p {
     background-color: rgb(239, 76, 112);
     font-size: larger;
 }
+
+.donate-card:hover {
+    color: rgb(235, 235, 58);
+    background-color: rgb(31, 177, 182);
+    transform: scale(1.2);
+}
+
+#vi-card1:hover,
+#vi-card2:hover,
+#vi-card3:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    border: 1px solid maroon;
+}
