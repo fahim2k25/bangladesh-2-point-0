@@ -361,3 +361,29 @@ p {
     background-repeat: no-repeat;
     background-position: 2% 9%;
 }
+
+/* hover effects */
+.primary-btn:hover {
+
+    background: rgb(48, 25, 199);
+    color: rgb(235, 230, 82);
+}
+
+.nav-btn:hover {
+    background-color: rgb(0, 106, 80);
+    color: aliceblue;
+}
+
+.banner-btn:hover {
+    color: rgb(0, 106, 80);
+    background: rgb(255, 255, 255);
+}
+
+#vi-card1-btn:hover,
+#vi-card2-btn:hover,
+#vi-card3-btn:hover {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(239, 76, 112);
+    font-size: larger;
+}
