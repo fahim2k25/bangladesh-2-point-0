@@ -324,4 +324,40 @@ p {
     margin-bottom: 20px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    margin: 80px 0px;
+}
+
+#newsletter-sec>h2 {
+    margin-bottom: 24px;
+}
+
+#input-mail {
+    width: 600px;
+    height: 10px;
+    border: 0px;
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+}
+
+#sub-btn {
+    border-radius: 0px 8px 8px 0px;
+}
+
+#newsletter-sec>div {
+    margin-bottom: 18px;
+}
+
+/* DR. YUNUS */
+#yunus-qoute {
+    padding: 48px 24px 48px 24px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 2% 9%;
 }
